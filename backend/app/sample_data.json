@@ -1,0 +1,33 @@
+[
+  {
+    "dishName": "Cheese Burger",
+    "imageUrl": "https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_960_720.jpg",
+    "isPublished": 1
+  },
+  {
+    "dishName": "Pepperoni Pizza",
+    "imageUrl": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg",
+    "isPublished": 0
+  },
+  {
+    "dishName": "Pancake",
+    "imageUrl": "https://cdn.pixabay.com/photo/2017/05/07/08/56/pasta-2291908_1280.jpg",
+    "isPublished": 1
+  },
+  {
+    "dishName": "Grilled Salmon",
+    "imageUrl": "https://cdn.pixabay.com/photo/2015/05/19/23/02/salmon-774482_1280.jpg",
+    "isPublished":0
+  },
+  {
+    "dishName":"Chicken legs",
+    "imageUrl": "https://cdn.pixabay.com/photo/2019/01/23/10/35/fried-3949947_1280.jpg",
+    "isPublished":0
+  },
+  {
+    "dishName":"Sushi",
+    "imageUrl": "https://cdn.pixabay.com/photo/2020/04/04/15/07/sushi-5002639_1280.jpg",
+    "isPublished":1
+  }
+
+]

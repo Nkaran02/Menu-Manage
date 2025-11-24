@@ -1,0 +1,88 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #f2e6d9, #d1b89c 60%);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 38px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #4e3b2a;
+}
+
+/* Horizontal sliding container */
+.dish-scroll-container {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 15px 5px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+.dish-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.dish-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #a27956;
+  border-radius: 100px;
+}
+
+/* Card */
+.dish-card {
+  background: #f9f1e7;
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0px 4px 15px rgba(70, 55, 35, 0.25);
+  transition: 0.3s;
+  cursor: pointer;
+  flex: 0 0 auto;
+  width: 250px;
+}
+
+.dish-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 6px 22px rgba(70, 55, 35, 0.35);
+}
+
+/* Image */
+.dish-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* Name */
+.dish-name {
+  margin: 14px 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #4e3b2a;
+}
+
+/* Button */
+.publish-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.publish-btn:hover {
+  filter: brightness(1.15);
+}
